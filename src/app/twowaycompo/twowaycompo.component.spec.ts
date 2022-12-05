@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ServersComponent } from './servers.component';
+import { TwowaycompoComponent } from './twowaycompo.component';
 
-describe('ServersComponent', () => {
-  let component: ServersComponent;
-  let fixture: ComponentFixture<ServersComponent>;
+describe('TwowaycompoComponent', () => {
+  let component: TwowaycompoComponent;
+  let fixture: ComponentFixture<TwowaycompoComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ ServersComponent ]
+      declarations: [ TwowaycompoComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(ServersComponent);
+    fixture = TestBed.createComponent(TwowaycompoComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
