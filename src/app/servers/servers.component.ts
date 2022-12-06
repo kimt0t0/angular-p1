@@ -20,7 +20,7 @@ export class ServersComponent {
 
   ngOnInit() {}
 
-  onCreateServer() {
+  createServer() {
     this.serverCreated = true;
     this.serverCreationStatus = "Server created with name --- " + this.serverName + " !";
   }
