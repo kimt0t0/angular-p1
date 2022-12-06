@@ -13,7 +13,7 @@ export class UserDetailsComponent {
 
   onClickDo() {
     this.clickCounter += 1;
-    this.clicks.push(this.clickCounter);
+    this.clicks.push(new Date());
     this.showSecretWord = true;
   }
 

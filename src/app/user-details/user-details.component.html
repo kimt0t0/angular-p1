@@ -1,4 +1,4 @@
 <button class="btn btn-primary" (click)="onClickDo()">Display Data</button>
 <br/>
 <p *ngIf="showSecretWord">Secret Word: Beluga !</p>
-<p *ngFor="let click of clicks" [ngClass]="{blue: click >= 5}">{{ getClick(click) }}</p>
+<p *ngFor="let click of clicks; let i = index" [ngClass]="{blue: i >= 4}">{{ getClick(click) }}</p>
